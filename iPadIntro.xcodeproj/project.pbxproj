@@ -15,6 +15,10 @@
 		5769F683203E26D600C842AF /* fellows.json in Resources */ = {isa = PBXBuildFile; fileRef = 5769F682203E26D600C842AF /* fellows.json */; };
 		5769F685203E271500C842AF /* Fellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5769F684203E271500C842AF /* Fellow.swift */; };
 		5769F687203E282D00C842AF /* FellowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5769F686203E282D00C842AF /* FellowCell.swift */; };
+		576E19D2203F18D90074315E /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576E19D1203F18D90074315E /* iPad.storyboard */; };
+		576E19D4203F19D20074315E /* FellowsSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E19D3203F19D20074315E /* FellowsSplitViewController.swift */; };
+		576E19D6203F1A1A0074315E /* FellowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E19D5203F1A1A0074315E /* FellowsViewController.swift */; };
+		576E19D8203F1A320074315E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576E19D7203F1A320074315E /* DetailViewController.swift */; };
 		68AE84F68BCB17CDF6FA3154 /* Pods_iPadIntro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2369356E27ABF3221BB203D6 /* Pods_iPadIntro.framework */; };
 		7F2763647061298EC1F85273 /* Pods_iPadIntroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDF0E8FE9F2F22E9EF8915A /* Pods_iPadIntroTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +48,10 @@
 		5769F682203E26D600C842AF /* fellows.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fellows.json; sourceTree = "<group>"; };
 		5769F684203E271500C842AF /* Fellow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fellow.swift; sourceTree = "<group>"; };
 		5769F686203E282D00C842AF /* FellowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FellowCell.swift; sourceTree = "<group>"; };
+		576E19D1203F18D90074315E /* iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		576E19D3203F19D20074315E /* FellowsSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FellowsSplitViewController.swift; sourceTree = "<group>"; };
+		576E19D5203F1A1A0074315E /* FellowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FellowsViewController.swift; sourceTree = "<group>"; };
+		576E19D7203F1A320074315E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6EDF0E8FE9F2F22E9EF8915A /* Pods_iPadIntroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPadIntroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6FF65C4D97BB762CBFFF8E /* Pods-iPadIntro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadIntro.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPadIntro/Pods-iPadIntro.release.xcconfig"; sourceTree = "<group>"; };
 		D4A1D3F35DAF0A9EE159ADD4 /* Pods-iPadIntroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPadIntroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPadIntroTests/Pods-iPadIntroTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +134,7 @@
 			children = (
 				5769F655203E220F00C842AF /* AppDelegate.swift */,
 				5769F682203E26D600C842AF /* fellows.json */,
+				576E19D1203F18D90074315E /* iPad.storyboard */,
 				5769F65C203E220F00C842AF /* Assets.xcassets */,
 				5769F65E203E220F00C842AF /* LaunchScreen.storyboard */,
 			);
@@ -135,6 +144,9 @@
 		5769F676203E230300C842AF /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				576E19D3203F19D20074315E /* FellowsSplitViewController.swift */,
+				576E19D5203F1A1A0074315E /* FellowsViewController.swift */,
+				576E19D7203F1A320074315E /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -263,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576E19D2203F18D90074315E /* iPad.storyboard in Resources */,
 				5769F683203E26D600C842AF /* fellows.json in Resources */,
 				5769F660203E220F00C842AF /* LaunchScreen.storyboard in Resources */,
 				5769F65D203E220F00C842AF /* Assets.xcassets in Resources */,
@@ -389,8 +402,11 @@
 			files = (
 				5769F685203E271500C842AF /* Fellow.swift in Sources */,
 				5769F681203E26C700C842AF /* JSONParser.swift in Sources */,
+				576E19D4203F19D20074315E /* FellowsSplitViewController.swift in Sources */,
 				5769F656203E220F00C842AF /* AppDelegate.swift in Sources */,
+				576E19D6203F1A1A0074315E /* FellowsViewController.swift in Sources */,
 				5769F687203E282D00C842AF /* FellowCell.swift in Sources */,
+				576E19D8203F1A320074315E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
